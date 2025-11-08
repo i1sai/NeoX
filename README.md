@@ -3,7 +3,7 @@ NeoX — Training Session Tracker
 
 NeoX lets a registered user keep track of group workouts, including duration, calories burned, intensity, and the program/source that supplied the data. The profile page stores height, weight, and goal so the user can see a quick BMI estimate.
 
-https://neoxrepo.vercel.app/
+## https://neoxrepo.vercel.app/
 
 ## Tech Stack
 - Next.js 14 (React 18) with **TypeScript** for all pages and components
