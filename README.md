@@ -83,17 +83,15 @@ NeoX lets a registered user keep track of group workouts, including duration, ca
     with check (user_id = current_setting('request.headers', true)::json->>'x-user-id');
   ```
 
-## Features to Demo
+## Features
 - Sign up / log in (redirects straight to sessions).
 - `/sessions`: list workouts, add via quick presets (HIIT, Strength, Conditioning) and one-click duration/calorie picks, edit, delete.
 - `/profile`: store height, weight, goal (preset list + custom option) and view BMI estimate.
 
-## Environment Variables
+## API Environment Variables
 - `NEXT_PUBLIC_FIREBASE_API_KEY`
 - `NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN`
 - `NEXT_PUBLIC_FIREBASE_PROJECT_ID`
 - `NEXT_PUBLIC_FIREBASE_APP_ID`
 - `NEXT_PUBLIC_SUPABASE_URL`
 - `NEXT_PUBLIC_SUPABASE_ANON_KEY`
-
-That’s all the setup needed to run or present NeoX.
