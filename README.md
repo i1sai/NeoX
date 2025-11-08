@@ -95,3 +95,5 @@ NeoX lets a registered user keep track of group workouts, including duration, ca
 - `NEXT_PUBLIC_FIREBASE_APP_ID`
 - `NEXT_PUBLIC_SUPABASE_URL`
 - `NEXT_PUBLIC_SUPABASE_ANON_KEY`
+
+================================
